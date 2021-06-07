@@ -5,7 +5,7 @@ import {MenuItems} from "./MenuItems"
         render(){
             return (
                 <nav className="NavbarItems">
-                    <h1 className="navbar-logo">Reemock</h1>
+                    <h1 className="navbar-logo">Reemock<i className="fab fa-react"></i></h1>
                     <div className="menu-icon">
 
                     </div>
