@@ -14,6 +14,7 @@ import './Navbar.css'
             return (
                 <nav className="NavbarItems">
                     <h1 className="navbar-logo">Reebmock</h1>
+                    <p className="navbar-slogan">Impossible is Nothing</p>
                     <div className="menu-icon" onClick={this.handleClick}>
                         <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                     </div>
