@@ -1,12 +1,18 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import image1 from "./Images/Reebok_1.jpeg"
+import image2 from "./Images/Reebok_2.jpeg"
+import image3 from "./Images/Reebok_3.jpeg"
+import './Carousel.css'
 
 const CarouselContainer = () => {
   return (
+  <Carousel>
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
       data-bs-ride="carousel"
+      data-bs-interval="6000"
     >
       <div class="carousel-indicators">
         <button
@@ -32,13 +38,13 @@ const CarouselContainer = () => {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src={image1} class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src={image2} class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src={image3} class="d-block w-100" alt="..." />
         </div>
       </div>
       <button
@@ -60,6 +66,7 @@ const CarouselContainer = () => {
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </Carousel>
   );
 };
 
