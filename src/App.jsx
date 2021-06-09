@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar"
 import './App.css';
+import CarouselContainer from "./components/Carousel/CarouselContainer";
 
 
 
@@ -8,6 +9,7 @@ import './App.css';
 function App(){
     return( <div>
        <Navbar />
+        <CarouselContainer/>
     </div>
     )};
 
