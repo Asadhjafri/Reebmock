@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar"
 import './App.css';
-import CarouselContainer from "./components/Carousel/CarouselContainer";
+import CarouselComponent from "./components/Carousel/carousel.component";
 
 
 
@@ -9,7 +9,7 @@ import CarouselContainer from "./components/Carousel/CarouselContainer";
 function App(){
     return( <div>
     <Navbar />
-    <CarouselContainer/>
+    <CarouselComponent/>
     </div>
     )};
 
