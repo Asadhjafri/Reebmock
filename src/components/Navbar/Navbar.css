@@ -103,9 +103,6 @@
         transform:translate(25%,50%);
     }
 
-    .navbar-slogan{
-        transform:translate(85%);
-    }
 
     .menu-icon{
         display:block;
@@ -122,8 +119,8 @@
         font-size: 2rem;
     }
 
-    .carousel-wrapper{
-        
+    .AnswerLogo{
+        display: none;
     }
 
 }
