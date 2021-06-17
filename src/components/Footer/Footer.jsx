@@ -3,7 +3,7 @@ import "./FooterStyle.css"
 
 function Footer(){
     return <div>
-          <footer>
+          <footer className="footer">
           <div>
             <h1 className="footerSlogan">Impossible is nothing</h1>
           </div>
@@ -12,7 +12,7 @@ function Footer(){
       <i className="social fab fa-facebook-f"></i>
       <i className="social fab fa-instagram"></i>
       <i className="social fas fa-envelope"></i>
-      <p>© 2021 Kudosz Inc.</p>
+      <p className="trademark">© 2021 Kudosz Inc.</p>
     </div>
   </footer>
     </div>

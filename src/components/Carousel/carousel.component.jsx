@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function CarouselComponent() {
     return (
         <div className="carousel-wrapper">
-            <Carousel infiniteLoop useKeyboardArrows autoPlay>
+            <Carousel >
                 <div>
                     <img src="../Reebok_1.jpeg" />
                 </div>

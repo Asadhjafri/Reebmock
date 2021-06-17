@@ -36,6 +36,7 @@
 }
 
 .nav-links:hover{
+    color: #fff;
     background-color: rgb(255, 129, 198);
     border-radius: 4px;
     transition: all 0.5s ease-out;
@@ -121,6 +122,11 @@
 
     .AnswerLogo{
         display: none;
+    }
+
+    .footerSlogan{
+        font-size: 5vw;
+        
     }
 
 }

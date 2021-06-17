@@ -1,18 +1,28 @@
-*{
+.footer{
     text-align: center;
+    
 }
 
 .footerSlogan{
     font-family: 'Permanent Marker', cursive;
+    margin-bottom: 2rem;
 }
 
 
 .social{
     margin: 0.8rem;
+    font-size: 1.5rem;
+    cursor:pointer;
 }
 
 .social:hover{
-    cursor: pointer;
-    background-color: rgb(255, 129, 198);
-    transition: all 0.5s ease-out;
+    background-color: rgb(177, 177, 177);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
 }
+
+.trademark{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
