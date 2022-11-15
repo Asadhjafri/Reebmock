@@ -12,10 +12,16 @@ Home Page Bottom with Carousel
 Mobile Version:
 
 Home Page with Menu 
+
+
 <img width="534" alt="Screen Shot 2022-11-15 at 10 55 46 AM" src="https://user-images.githubusercontent.com/51427124/201969374-82e2766f-a954-4c82-8094-50d2af472589.png">
+
+
 
 <img width="527" alt="Screen Shot 2022-11-15 at 11 13 20 AM" src="https://user-images.githubusercontent.com/51427124/201970086-c03703d3-7b81-4a94-a9a8-1845db77aa49.png">
 
 
 Home Page Bottom
+
+
 <img width="537" alt="Screen Shot 2022-11-15 at 10 57 09 AM" src="https://user-images.githubusercontent.com/51427124/201969522-5f53363f-2408-4b75-8825-c01dfa9fec32.png">
